@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Ajoute un petit espace entre l'icône et le texte */
+}
+
+footer {
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* css fournis pour un comportement adaptatif */
+
+div.product-list {
+align-items: stretch;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+margin: 20px 0;
+}
+
+div.product-item {
+border: 1px solid #00cc66;
+margin: 10px 0;
+padding: 10px;
+align-items: center;
+}
+
+div.product-image img {
+max-width: 150px;
+}
+div.product-name {
+margin: 15px 0;
+align-items: center;
+}
+
+.standard-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00cc66;
+    border: 1px solid #009900;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 25px;
+    cursor: pointer;
+    margin: 5px;
+    }
+    
+    .standard-button:hover {
+        background-color: #009900;
+        }
+        
+
+.product-container {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+
+.product-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+.product-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.product-image img {
+    max-width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+
+.product-info {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.standard-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00cc66;
+    border: 1px solid #009900;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.standard-button:hover {
+    background-color: #009900;
+}
+
+
+
+/* Conteneur principal du panier */
+.cart-container {
+    text-align: center;
+    padding: 20px;
+    background: white;
+}
+
+/* Liste des produits */
+.cart-items {
+    margin-top: 10px;
+    border-top: 2px solid #008000; /* Ligne verte en haut */
+}
+
+/* Produit dans le panier */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #008000; /* Ligne verte entre chaque produit */
+}
+
+/* Image du produit */
+.cart-image img {
+    width: 60px;
+    height: auto;
+}
+
+/* Détails du produit */
+.cart-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+/* Nom du produit */
+.cart-product-name {
+    font-weight: bold;
+    color: #7d57c1; /* Couleur violette pour les liens */
+    text-decoration: none;
+}
+
+.cart-product-name:hover {
+    text-decoration: underline;
+}
+
+/* Poids du produit */
+.cart-product-weight {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Prix du produit */
+.cart-product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Icône de suppression */
+.cart-remove {
+    color: #007bff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cart-remove:hover {
+    color: darkred;
+}
+
+/* Coût total */
+.cart-total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Bouton "Continuer votre magasinage" */
+.standard-button {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.standard-button:hover {
+    background: #218838;
+}
+
+/* Footer */
+footer {
+    background: #008000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}

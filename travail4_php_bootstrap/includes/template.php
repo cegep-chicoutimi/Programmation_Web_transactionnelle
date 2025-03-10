@@ -19,9 +19,12 @@
         <?php
         include("includes/template-nav.php");
         ?>
-
+LE CONTENU DE LA REGION MAIN SERA RECUPERE A PARTIR DE CE FICHIER
         <main>
             <?= $region_content; ?>
+            <?php
+        include("includes/index-carousel.php");
+        ?>
         </main>
 
         <?php

@@ -7,3 +7,11 @@ Contient les attributs CSS de vos pages web.
     src: url('fonts/dauphinn.ttf');
 }
 
+.card-text{ 
+text-align: justify;
+height: 120px;
+overflow: hidden;
+} 
+.text-justify {
+    text-align: justify;
+}

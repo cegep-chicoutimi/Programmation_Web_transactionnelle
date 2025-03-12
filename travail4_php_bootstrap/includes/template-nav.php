@@ -1,6 +1,6 @@
 <!-- Insérer votre barre de navigation ici -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">
             <!-- Nom du site -->
             <a class="navbar-brand" href="#">MODÈLES RÉDUITS</a>
@@ -14,10 +14,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#"><i class="fas fa-home"></i> ACCUEIL</a>
+                        <a class="nav-link active" href="index.php"><i class="fas fa-home"></i> ACCUEIL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-box"></i> NOS PRODUITS</a>
+                        <a class="nav-link" href="products.php"><i class="fas fa-box"></i> NOS PRODUITS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-envelope"></i> NOUS JOINDRE</a>

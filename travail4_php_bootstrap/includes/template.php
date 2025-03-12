@@ -20,8 +20,8 @@
 <p> </p>
         <main>
             <?= $region_content; ?>
-            <?php include("includes/index-carousel.php"); ?>
-            <?php include("includes/index-cards.php"); ?>
+          
+           
 
         </main>
 

@@ -16,15 +16,13 @@
     </head>
 
     <body>
-        <?php
-        include("includes/template-nav.php");
-        ?>
-LE CONTENU DE LA REGION MAIN SERA RECUPERE A PARTIR DE CE FICHIER
+        <?php  include("includes/template-nav.php"); ?>
+<p> </p>
         <main>
             <?= $region_content; ?>
-            <?php
-        include("includes/index-carousel.php");
-        ?>
+            <?php include("includes/index-carousel.php"); ?>
+            <?php include("includes/index-cards.php"); ?>
+
         </main>
 
         <?php

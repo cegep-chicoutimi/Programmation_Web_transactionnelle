@@ -7,6 +7,10 @@ Contient les attributs CSS de vos pages web.
     src: url('fonts/dauphinn.ttf');
 }
 
+.police_dauphinPlain{
+    font-family: 'DauphinPlain', sans-serif;
+}
+
 .card-text{ 
 text-align: justify;
 height: 120px;
